@@ -1,0 +1,15 @@
+{
+    "title": "Actor Input",
+    "type": "object",
+    "description": "Input for the actor",
+    "schemaVersion": 1,
+    "properties": {
+        "datasetId": {
+            "title": "Dataset ID",
+            "description": "Dataset ID",
+            "type": "string",
+            "editor": "textfield"
+        }
+    },
+    "required": ["datasetId"]
+}
