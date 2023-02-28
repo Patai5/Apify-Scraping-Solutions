@@ -1,0 +1,40 @@
+{
+    "title": "Scraper Input",
+    "type": "object",
+    "description": "Input for the Scraper",
+    "schemaVersion": 1,
+    "properties": {
+        "task": {
+            "title": "task",
+            "description": "task",
+            "type": "string",
+            "editor": "textfield"
+        },
+        "memory": {
+            "title": "memory",
+            "description": "memory",
+            "type": "integer",
+            "editor": "number"
+        },
+        "useClient": {
+            "title": "useClient",
+            "description": "useClient",
+            "type": "boolean",
+            "editor": "checkbox"
+        },
+        "fields": {
+            "title": "fields",
+            "description": "fields",
+            "type": "array",
+            "editor": "stringList"
+        },
+        "maxItems": {
+            "title": "maxItems",
+            "description": "maxItems",
+            "type": "integer",
+            "editor": "number",
+            "minimum": 0
+        }
+    },
+    "required": ["task", "memory", "useClient", "fields", "maxItems"]
+}
