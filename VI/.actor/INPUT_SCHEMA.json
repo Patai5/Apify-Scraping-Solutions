@@ -1,0 +1,23 @@
+{
+    "title": "Scraper Input",
+    "type": "object",
+    "description": "Input for the Scraper",
+    "schemaVersion": 1,
+    "properties": {
+        "keyword": {
+            "title": "Keyword",
+            "type": "string",
+            "description": "The keyword to search for.",
+            "prefill": "Iphone",
+            "editor": "textfield"
+        },
+        "proxies": {
+            "title": "Proxies",
+            "type": "array",
+            "description": "Your proxies.",
+            "prefill": ["YOUR_PROXY123", "YOUR_PROXY999"],
+            "editor": "stringList"
+        }
+    },
+    "required": ["keyword", "proxies"]
+}
