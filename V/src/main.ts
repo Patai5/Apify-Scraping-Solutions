@@ -26,7 +26,7 @@ Actor.main(async () => {
     }
     const KEYWORD = input.keyword;
 
-    const dataset = await Actor.openDataset("Amazon-scraped-products");
+    const dataset = await Actor.openDataset();
 
     const crawler = new CheerioCrawler({
         requestHandler: async (context) => {

@@ -1,3 +1,5 @@
+# QUIZ
+
 ### 1. What are the different types of proxies that Apify proxy offers? What are the main differences between them?
 
 1. Datacenter - fastest and most reliable, hovewer the most easily detectable one

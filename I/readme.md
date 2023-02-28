@@ -1,3 +1,5 @@
+# QUIZ
+
 ### 1. How do you allocate more CPU for an actor's run?
 
 By inputing more memory into the actors options. The amount of memory is directly proportional to the CPU power (4096 MB = 1 CPU core)

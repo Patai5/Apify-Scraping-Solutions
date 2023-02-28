@@ -1,3 +1,5 @@
+# QUIZ
+
 ### 1. Actors have an option the Settings tab to Restart on error. Would you use this feature for regular actors? When would you use this feature?
 
 No, I wouldn't. Ussually if an error comes up and it's not handled it's alreaddy too late, running the actor multiple times for no result would just waste our Actor compute units.
